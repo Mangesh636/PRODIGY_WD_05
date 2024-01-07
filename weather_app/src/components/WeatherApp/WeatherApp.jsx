@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 const WeatherApp = () => {
 
-    let api_key = "1067a886fe75cbe872baf599991f18cf";
+    let api_key = "your_api_key";
 
     const [wicon,setWicon] = useState(cloud_icon);
 
